@@ -1,0 +1,15 @@
+The code is used to interface Raspberry pi and DHT11 temerature and Humidity sensor.
+
+The sensor works on 1-wire protocol.
+
+Connections are as follows.
+
+Raspi Pins		DHT11 pins
+
+2			VCC
+6			GND
+8 (GPIO 14)		DATA
+
+The code can be run as below
+
+:sudo python ./dht_example.py
