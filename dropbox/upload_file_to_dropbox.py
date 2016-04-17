@@ -1,3 +1,3 @@
 from subprocess import call  
-photofile = "/home/pi/dropbox/dropbox_uploader.sh upload /home/pi/cam/shot.jpg Servielence_videos/photo00001.jpg"   
+photofile = "/home/pi/farmland_security/dropbox/dropbox_uploader.sh upload /home/pi/farmland_security/cam/test.avi servielence_videos/test1.avi"   
 call ([photofile], shell=True) 

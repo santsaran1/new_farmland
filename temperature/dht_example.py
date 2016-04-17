@@ -15,7 +15,7 @@ while True:
 	if result.is_valid():
     		print("Temperature: %d C" % result.temperature)
     		print("Humidity: %d %%" % result.humidity)
-    		print("Error: %d" % result.error_code)
+#    		print("Error: %d" % result.error_code)
 	else:
     		print("Error: %d" % result.error_code)
 	print("***************************");
