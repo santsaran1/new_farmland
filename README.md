@@ -7,6 +7,6 @@
 5. This infinite loop will break and comes out if any of sensors go high.
 6. Immediately system shall capture the image through USB cam attached and will store in "~/farmaland_security/pics/" folder. 
 7. The above file shall be named as with time and date, for ex: "DDMMYYY:HH:MM.jpg".
-8. The above file shall be uploaded to cloud (dropbox).
+8. The above file shall be uploaded to cloud (dropbox). Kindly refer [How to use Dropbox cloud with Raspberrypi](http://raspi.tv/2013/how-to-use-dropbox-with-raspberry-pi)
 9. Create a thread which shall start recording through USB cam for specified amount of time and saved under "~/farmaland_security/videos/" folder.
 10. File is again named as with time and date for ex: "DDMMYYY:HH:MM.jpg", and uploaded to cloud.
