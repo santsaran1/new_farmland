@@ -37,6 +37,23 @@
 #import
 import RPi.GPIO as GPIO
 import time
+#LCD Pin	Function	Pi Function	Pi Pin
+#01		GND		GND		P1-06
+#02		+5V		+5V		P1-02
+#03		Contrast	GND		P1-06
+#04		RS		GPIO7		P1-26
+#05		RW		GND		P1-06
+#06		E		GPIO8		P1-24
+#07		Data 0		
+#08		Data 1		
+#09		Data 2		
+#10		Data 3		
+#11		Data 4		GPIO25		P1-22
+#12		Data 5		GPIO24		P1-18
+#13		Data 6		GPIO23		P1-16
+#14		Data 7		GPIO18		P1-12
+#15		+5V via 560ohm		
+#16		GND				P1-06
  
 # Define GPIO to LCD mapping
 LCD_RS = 7
@@ -47,6 +64,7 @@ LCD_D6 = 23
 LCD_D7 = 18
  
 # Define some device constants
+# read data using pin 14
 LCD_WIDTH = 16    # Maximum characters per line
 LCD_CHR = True
 LCD_CMD = False
